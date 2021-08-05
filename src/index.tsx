@@ -1,11 +1,20 @@
-import React, { FC } from 'react';
-import { Button } from 'antd';
-import './App.css';
+/**
+* This is an auto-generated demo by dumi
+* if you think it is not working as expected,
+* please report the issue at
+* https://github.com/umijs/dumi/issues
+**/
 
-const App: FC = () => (
-  <div className="App">
-    <Button type="primary">Button</Button>
-  </div>
+import React from 'react';
+import ReactDOM from 'react-dom';
+import '@ant-design/pro-table/dist/table.css';
+import '@ant-design/pro-field/dist/field.css';
+import '@ant-design/pro-form/dist/form.css';
+import '@ant-design/pro-card/dist/card.css';
+import 'antd/dist/antd.css';
+import App from './App';
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root'),
 );
-
-export default App;
